@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((e,o,n)=>(console.log("Message received in background:",e),e.action==="GREETINGS"&&n({reply:"Hello from background.js!"}),!0));chrome.action.onClicked.addListener(()=>{chrome.tabs.create({url:"frontend/index.html"})});

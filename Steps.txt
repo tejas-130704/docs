@@ -1,0 +1,9 @@
+npm init -y
+npm i express (for backend )
+npm i mysql (for connection)
+npm i nodemon (for hot reload)
+
+//"package.json" =>  "type":"module",
+//make changes in  "package.json" to enable hot-reload   =>  "start": "nodemon index.js"
+
+//Terminal => npm start 

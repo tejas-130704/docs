@@ -1,0 +1,1 @@
+console.log("Content script loaded");chrome.runtime.sendMessage({action:"GREETINGS",data:"Hello from content.js"},e=>{console.log("Response from background:",e)});chrome.runtime.onMessage.addListener((e,n,o)=>{console.log("Message received in content.js:",e),o({reply:"Message received in content.js"})});
