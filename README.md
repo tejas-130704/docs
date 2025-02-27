@@ -113,9 +113,6 @@ https://github.com/user-attachments/assets/da03a6e6-cd52-4d2a-85be-b6ba97929143
 We welcome contributions! Feel free to **fork** the repo, make changes, and submit a **pull request**.
 For major changes, please open an **issue** first to discuss your ideas.
 
-## 📄 License
-This project is licensed under the **MIT License** – you’re free to modify and distribute it.
-
 Happy Coding! 🚀
 
 
